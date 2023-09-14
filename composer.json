@@ -1,0 +1,19 @@
+{
+    "name": "italo/estudo",
+    "autoload": {
+        "psr-4": {
+            "Italo\\Estudo\\": "src/",
+            "app\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ItaloSaid",
+            "email": "italo13said@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.3"
+    }
+
+}
