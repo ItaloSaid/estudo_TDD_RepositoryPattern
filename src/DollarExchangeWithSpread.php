@@ -9,8 +9,7 @@ class DollarExchangeWithSpread
     public function __construct(
         private readonly DollarRealQuotationApi $dollarRealQuotationApi,
         private readonly CustomerRepository $customerRepository
-    )
-    {
+    ){
     }
 
     public function execute(InputData $inputData) : array

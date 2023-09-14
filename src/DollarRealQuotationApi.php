@@ -5,4 +5,5 @@ interface DollarRealQuotationApi
 {
     public function getQuotation(): float;
 
+
 }
